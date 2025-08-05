@@ -10,9 +10,7 @@ This is the backend REST API for a full-featured **Human Resource Management Sys
 - **Java 17+**
 - **Spring Boot**
 - **Spring Data JPA**
-- **Spring Security (JWT Auth)**
-- **MySQL / PostgreSQL**
-- **Lombok**
+- **MySQL **
 - **Maven**
 - **RESTful APIs**
 
@@ -20,13 +18,11 @@ This is the backend REST API for a full-featured **Human Resource Management Sys
 
 ## 📦 Features
 
-- ✅ **User Authentication** (JWT-based login & registration)
 - ✅ **Role-based Access Control** (Admin, HR, Employee)
 - ✅ **Employee Management** (CRUD operations)
 - ✅ **Department & Designation Management**
 - ✅ **Leave Application & Approval System**
 - ✅ **Attendance Tracking**
-- ✅ **Holiday & Notice Board APIs**
 - ✅ **Email Notification Support (Optional)**
 
 ---
@@ -73,21 +69,6 @@ cd hrms-backend
 
 ---
 
-## 🔐 Security
-
-- Passwords are encrypted using **BCrypt**.
-- JWT token-based stateless authentication is used.
-- Endpoints are protected with **role-based access control**.
-
----
-
-## 📌 TODO
-
-- [ ] Dockerize the backend
-- [ ] Add Swagger for API documentation
-- [ ] Add unit and integration tests
-
----
 
 ## 🤝 Contribution
 
